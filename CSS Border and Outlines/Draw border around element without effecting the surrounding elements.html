@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS border</title>
+    <style>
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            float: left;
+            margin: 5px;
+        }
+
+        ul li img {
+            display: block;
+            background: #5dffff;
+            width: 100px;
+            height: 200px;
+        }
+
+        ul li:hover {
+            border: 5px solid #14010c;
+            overflow: hidden;
+        }
+
+        ul li:hover img {
+            margin: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><img src="https://cdn.pixabay.com/photo/2012/05/07/18/37/club-48940_960_720.png" alt="Club Card"></li>
+        <li><img src="https://i.dlpng.com/static/png/7092365_thumb.png" alt="Diamond Card"></li>
+        <li><img src="https://image.flaticon.com/icons/png/512/44/44672.png" alt="Spade Card"></li>
+        <li><img src="https://cdn2.iconfinder.com/data/icons/pittogrammi/142/80-512.png" alt="Heart Card"></li>
+    </ul>
+</body>
+
+</html>
