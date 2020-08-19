@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS z-index property</title>
+    <style>
+        div {
+            top: 25px;
+            left: 25px;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+        }
+
+        div.red {
+            background: #eb4c4c;
+            z-index: 1;
+        }
+
+        div.green {
+            background: #0dbcdb;
+            z-index: 2;
+        }
+
+        div.blue {
+            background: #1cec7a;
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        <div class="green">
+            <div class="blue"></div>
+        </div>
+    </div>
+</body>
+
+</html>
