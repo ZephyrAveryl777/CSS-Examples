@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Different Link States using CSS</title>
+    <style>
+        /* unvisited link */
+        a:link {
+            color: #ff0000;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #ff00ff;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #00ff00;
+            border-bottom: none;
+        }
+
+        /* active link */
+        a:active {
+            color: #00ffff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The link in this topic is highlighted</h1>
+    <p><a href="https://www.youtube.com/" target="_top">Click here for more fun.</a></p>
+</body>
+
+</html>
