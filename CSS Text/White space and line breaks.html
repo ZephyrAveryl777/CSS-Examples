@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of CSS white-space property</title>
+    <style>
+        code {
+            white-space: pre;
+        }
+
+        p.one {
+            white-space: nowrap;
+        }
+
+        p.two {
+            white-space: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <code>
+            code {
+            	white-space: pre;
+            }
+        </code>
+    </div>
+    <fieldset>
+        <p class="one">This paragraph doesn't wrap to a new line automatically. This paragraph doesn't wrap to a new
+            line
+            automatically.
+            This paragraph doesn't wrap to a new line automatically.
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+        <p class="two">This paragraph does wrap to a new line automatically. This paragraph does wrap to a new line
+            automatically.
+            This paragraph does wrap to a new line automatically.
+        </p>
+    </fieldset>
+</body>
+
+</html>
