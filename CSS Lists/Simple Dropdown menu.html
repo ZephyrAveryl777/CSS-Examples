@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Drop Down Menu</title>
+    <style>
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            width: 100px;
+            text-align: center;
+            background: #37a86a;
+            font-weight: bold;
+        }
+
+        ul li a {
+            padding: 5px;
+            display: block;
+            color: #fefefe;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        ul li ul {
+            display: none;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Drop Down Menu</h1>
+    <ul>
+        <li><a href="#">Click Me to Drop !!</a>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
