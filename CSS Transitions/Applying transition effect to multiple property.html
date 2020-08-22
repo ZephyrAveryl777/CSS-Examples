@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS3 Multiple Transitions</title>
+    <style>
+        button {
+            color: #fff;
+            padding: 10px 20px;
+            font: bold 18px sans-serif;
+            background: #c72407;
+            border: 3px solid #ee3f0a;
+            /* For Safari 3.0+ */
+            -webkit-transition-property: background, border;
+            -webkit-transition-duration: 1s, 2s;
+            /* Standard syntax */
+            transition-property: background, border;
+            transition-duration: 1s, 2s;
+        }
+
+        button:hover {
+            background: #0cc1e0;
+            border-color: #2622f8;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button">Hover on me</button>
+</body>
+
+</html>
