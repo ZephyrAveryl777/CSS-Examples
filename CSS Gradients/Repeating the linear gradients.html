@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of Repeating the Linear Gradients</title>
+    <style>
+        .gradient {
+            width: 400px;
+            height: 300px;
+            /* Fallback for browsers that don't support gradients */
+            background: rgb(255, 94, 94);
+            /* For Safari 5.1 to 6.0 */
+            background: -webkit-repeating-linear-gradient(rgb(255, 118, 118), rgb(255, 204, 94) 10%, rgb(87, 255, 233) 20%);
+            /* For Internet Explorer 10 */
+            background: -ms-repeating-linear-gradient(rgb(255, 118, 118), rgb(255, 204, 94) 10%, rgb(87, 255, 233) 20%);
+            /* Standard syntax */
+            background: repeating-linear-gradient(rgb(255, 149, 130), rgb(253, 210, 116) 10%, rgb(87, 255, 233) 20%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient"></div>
+</body>
+
+</html>

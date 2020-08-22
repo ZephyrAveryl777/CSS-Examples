@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of Linear Gradients from Left to Right</title>
+    <style>
+        .gradient {
+            width: 400px;
+            height: 300px;
+            /* Fallback for browsers that don't support gradients */
+            background: red;
+            /* For Safari 5.1 to 6.0 */
+            background: -webkit-linear-gradient(left, rgb(255, 138, 138), rgb(105, 255, 192));
+            /* For Internet Explorer 10 */
+            background: -ms-linear-gradient(left, rgb(255, 138, 138), rgb(105, 255, 192));
+            /* Standard syntax */
+            background: linear-gradient(to right, rgb(255, 138, 138), rgb(105, 255, 192));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient"></div>
+</body>
+
+</html>

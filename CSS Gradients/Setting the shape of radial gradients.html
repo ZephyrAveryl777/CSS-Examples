@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of Setting the Shape Radial Gradients</title>
+    <style>
+        .gradient {
+            width: 400px;
+            height: 300px;
+            /* Fallback for browsers that don't support gradients */
+            background: red;
+            /* For Safari 5.1 to 6.0 */
+            background: -webkit-radial-gradient(circle, red, yellow, lime);
+            /* For Internet Explorer 10 */
+            background: -ms-radial-gradient(circle, red, yellow, lime);
+            /* Standard syntax */
+            background: radial-gradient(circle, rgb(250, 2, 2), rgb(253, 253, 26), rgb(94, 143, 139));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient"></div>
+</body>
+
+</html>

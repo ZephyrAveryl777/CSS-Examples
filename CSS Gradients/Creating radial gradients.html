@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of Radial Gradients</title>
+    <style>
+        .gradient {
+            width: 400px;
+            height: 300px;
+            /* Fallback for browsers that don't support gradients */
+            background: red;
+            /* For Safari 5.1 to 6.0 */
+            background: -webkit-radial-gradient(rgb(255, 116, 116), rgb(232, 255, 100), rgb(97, 255, 181));
+            /* For Internet Explorer 10 */
+            background: -ms-radial-gradient(rgb(255, 116, 116), rgb(232, 255, 100), rgb(97, 255, 181));
+            /* Standard syntax */
+            background: radial-gradient(rgb(255, 116, 116), rgb(232, 255, 100), rgb(97, 255, 181));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient"></div>
+</body>
+
+</html>
