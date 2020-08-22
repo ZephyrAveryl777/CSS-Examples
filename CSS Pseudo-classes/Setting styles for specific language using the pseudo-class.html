@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS :lang Pseudo-class</title>
+    <style>
+        q:lang(no) {
+            quotes: "~""~";
+        }
+
+        q:lang(en) {
+            quotes: "' '";
+        }
+
+        h5 {
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h5>General way of using quote.</h5>
+    <p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+
+    <p>An example of a quote.
+        <q lang="en">If I cannot do great things, I can do small things in a great way.</q> -Martin Luther King Jr.
+    </p>
+    <p><strong>Note:</strong> Internet Explorer 8 and earlier version don't support the <code>:lang</code> pseudo-class.
+        IE8 supports only if a <code><!DOCTYPE></code> is specified.</p>
+</body>
+
+</html>

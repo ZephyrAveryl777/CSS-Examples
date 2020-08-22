@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS :first-child Pseudo-class</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato&display=swap"
+        rel="stylesheet">
+    <style>
+        ol {
+            padding: 0;
+            list-style: none;
+        }
+
+        ol li {
+            padding: 10px 0;
+            border-top: 2.5px dashed #4febff;
+        }
+
+        li:first-child {
+            border-top: none;
+        }
+
+        body {
+            font-family: 'Dancing Script', cursive;
+            font-size: 40px;
+            background-color: rgb(255, 168, 168);
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Recipe of Life</h1>
+    <ol>
+        <li>4 cups of Love </li>
+        <li>2 cups of Loyalty</li>
+        <li>3 cups of Forgiveness
+        </li>
+        <li>1 cup of Friendship
+        </li>
+        <li>5 spoons of Hope</li>
+        <li>2 spoons of Tenderness
+        </li>
+        <li>4 quarts of Faith</li>
+        <li>1 barrel of Laughter
+        </li>
+    </ol>
+    <p>
+    <h3>Steps in the making</h3>
+    <ul>
+        <li>Take Love and Loyalty, mix it thoroughly with Faith.</li>
+        <li>Blend it with Tenderness, Kindness & Understanding.</li>
+        <li>Sprinkle abundantly with Laughter.</li>
+        <li>Bake it with Sunshine.</li>
+        <li>Serve daily with Generous helpings as toppings.</li>
+    </ul>
+    </p>
+    <p><strong>Note:</strong> To make <code>:first-child</code> to work in IE8 and earlier, a <code><!DOCTYPE></code>
+        must be declared at the top of document.</p>
+</body>
+
+</html>
