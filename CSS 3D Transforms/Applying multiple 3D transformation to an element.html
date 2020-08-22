@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS3 Multiple 3D Transformation</title>
+    <style>
+        .container {
+            margin: 50px;
+            width: 125px;
+            height: 125px;
+            perspective: 300px;
+            border: 4px solid #d14e46;
+            background: #fddddb;
+        }
+
+        .transformed {
+            -webkit-transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2);
+            /* Chrome, Safari, Opera */
+            transform: translate3d(0, 0, 60px) rotate3d(0, 1, 0, -60deg) scale3d(1, 1, 2);
+            /* Standard syntax */
+        }
+
+        img {
+            widows: 125px;
+            height: 125px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Before Transform:</h2>
+    <div class="container">
+        <img src="https://i.dlpng.com/static/png/133095_preview.png" alt="Heart Card">
+    </div>
+    <h2>After Transform:</h2>
+    <div class="container">
+        <img src="https://i.dlpng.com/static/png/133095_preview.png" class="transformed" alt="Heart Card">
+    </div>
+</body>
+
+</html>

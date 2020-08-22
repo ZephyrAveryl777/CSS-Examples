@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS3 scale3d() Method</title>
+    <style>
+        .container {
+            margin: 50px;
+            width: 125px;
+            height: 125px;
+            perspective: 300px;
+            border: 4px solid #020b14;
+            background: #5da9e4;
+        }
+
+        .transformed {
+            -webkit-transform: scale3d(1, 1, 2) rotate3d(1, 0, 0, 60deg);
+            /* Chrome, Safari, Opera */
+            transform: scale3d(1, 1, 1) rotate3d(1, 0, 0, 60deg);
+            /* Standard syntax */
+        }
+
+        img {
+            width: 125px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Before Scaling:</h2>
+    <div class="container">
+        <img src="https://purepng.com/public/uploads/large/purepng.com-deer-vectoranimalcartooncharacterillustrationclipartvectordeer-981524644952lr3ad.png"
+            alt="Club Card">
+    </div>
+    <h2>After Scaling:</h2>
+    <div class="container">
+        <img src="https://purepng.com/public/uploads/large/purepng.com-deer-vectoranimalcartooncharacterillustrationclipartvectordeer-981524644952lr3ad.png"
+            class="transformed" alt="Club Card">
+    </div>
+</body>
+
+</html>
