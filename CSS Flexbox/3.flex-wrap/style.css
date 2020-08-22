@@ -1,0 +1,46 @@
+body{
+    margin:0;
+}
+.container{
+    border: 3px dashed #232323;
+    display:flex;
+    flex-direction:row-reverse;
+    /*there are more options like, flex-direction: row | row-reverse | column | column-reverse  */
+    flex-wrap: nowrap;
+    /*this  also has more options like, flex-wrap: nowrap | wrap | wrap-reverse */
+}
+.flexible-item{
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1.25rem;
+    text-align: center;
+}
+.item-1{
+    background-color: #10dfee;
+}
+.item-2{
+    background-color: #7beb7b ;   
+}
+.item-3{
+    background-color: #4547657e ;
+}
+.item-4{
+    background-color: #668833;
+}
+.item-5{
+    background-color: #de45de ;
+}
+.item-6{
+    background-color: #456789;
+}.item-7{
+    background-color: #c57d7d;
+}
+.item-8{
+    background-color: #1d6868;
+}
+.item-9{
+    background-color: #5dd65d;
+}
+.item-10{
+    background-color: #089808;
+}
