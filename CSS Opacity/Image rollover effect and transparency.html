@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of opacity</title>
+    <style>
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            float: left;
+            margin: 10px;
+        }
+
+        ul li img {
+            opacity: 0.5;
+            display: block;
+            filter: alpha(opacity=50);
+            /* to work in IE */
+            width: 200px;
+            height: 200px;
+        }
+
+        ul li img:hover {
+            opacity: 1;
+            filter: alpha(opacity=100);
+            /* to work in IE */
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><img src="https://liferoots.ca/wp-content/uploads/2013/09/bigstock-Spring-blossom-background-Bea-85929317-1024x652.jpg"
+                alt="Flower 1"></li>
+        <li><img src="https://s3.envato.com/files/241218658/EOS-5D-Mark-IV_3721.jpg" alt="Flower 2 "></li>
+        <li><img src="https://ak.picdn.net/shutterstock/videos/24332828/thumb/1.jpg" alt="Flower  3"></li>
+        <li><img src="https://cdn.suwalls.com/wallpapers/flowers/wonderful-spring-blossoms-49080-1920x1200.jpg"
+                alt="Flower  4"></li>
+    </ul>
+</body>
+
+</html>

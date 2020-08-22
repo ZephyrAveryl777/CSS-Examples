@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of Opaque Text inside Transparent Box</title>
+    <style>
+        div {
+            float: left;
+            opacity: 0.8;
+            border: 3px dashed #0e292c;
+        }
+
+        div img {
+            display: block;
+            widows: 600px;
+            height: 600px;
+        }
+
+        p {
+            float: left;
+            width: 450px;
+            padding: 5px;
+            color: #000000;
+            font-size: 20px;
+            position: relative;
+            margin-left: -700px;
+        }
+    </style>
+</head>
+
+<body>
+    <div><img src="https://cdn.britannica.com/26/152026-050-41D137DE/Sunshine-leaves-beech-tree.jpg" alt="Leaf"></div>
+    <p>This paragraph has given negative margin as if it is appeared visually inside the div box though it is not.
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quo aperiam dolorum, magnam incidunt pariatur
+        magni deserunt aliquid quasi blanditiis dignissimos illo tempore ratione non cum sed voluptas quae facilis.Atque
+        reprehenderit ab quidem fugit, perferendis repellat voluptatum repudiandae eveniet fugiat suscipit quibusdam
+        illum fuga, perspiciatis sequi et recusandae aliquid ducimus dolore rem iusto sapiente. Cupiditate quas maxime
+        hic. Voluptate.
+    </p>
+</body>
+
+</html>
