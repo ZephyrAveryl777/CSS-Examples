@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS3 Multiple 2D Transformation</title>
+    <style>
+        img {
+            -webkit-transform: translate(200px, 50px) rotate(180deg) scale(1.5) skew(0, 30deg);
+            /* Chrome, Safari, Opera */
+            -moz-transform: translate(200px, 50px) rotate(180deg) scale(1.5) skew(0, 30deg);
+            /* Firefox */
+            -ms-transform: translate(200px, 50px) rotate(180deg) scale(1.5) skew(0, 30deg);
+            /* IE 9 */
+            transform: translate(200px, 50px) rotate(180deg) scale(1.5) skew(0, 30deg);
+            /* Modern Browsers */
+            width: 600px;
+        }
+
+        .box {
+            margin: 50px;
+            width: 200px;
+            height: 200px;
+            background: url("https://d2hkcehpyog59.cloudfront.net/67f5a3ccc3ca0c03328cf5ace0ffef7331caa4a1/moving-hero.png") no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="https://d2hkcehpyog59.cloudfront.net/67f5a3ccc3ca0c03328cf5ace0ffef7331caa4a1/moving-hero.png"
+            alt="Random guy">
+    </div>
+</body>
+
+</html>
