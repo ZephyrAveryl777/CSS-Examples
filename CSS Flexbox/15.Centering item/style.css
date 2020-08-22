@@ -1,0 +1,59 @@
+.container {
+    height: 600px;
+    width: 600px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(221, 37, 13);
+}
+.item-2 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(221, 183, 13);
+}
+.item-3 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(55, 221, 13);
+}
+.item-4 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(13, 221, 176);
+}
+.item-5 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(13, 173, 221);
+}
+.item-6 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(13, 138, 221);
+}
+.item-7 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(13, 79, 221);
+}
+.item-8 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(69, 13, 221);
+}
+.item-9 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(221, 13, 193);
+}
+.item-10 {
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgb(221, 13, 82);
+}
