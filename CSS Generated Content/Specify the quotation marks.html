@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of CSS quotes property</title>
+    <style>
+        q {
+            quotes: '['']''"''"';
+        }
+
+        q:before {
+            content: open-quote;
+        }
+
+        q:after {
+            content: close-quote;
+        }
+    </style>
+</head>
+
+<body>
+    <p><q>Here is an example of <q>embedded</q> quotations.</q>
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt repellat laudantium necessitatibus sint alias
+        exercitationem voluptates optio sit facilis, cumque recusandae repellendus nisi cum iure, ipsa excepturi,
+        delectus quas fugit.Doloribus, illo ipsum aliquid fuga impedit velit unde quibusdam soluta sapiente quis quas
+        illum veritatis debitis omnis inventore officia quia quo repudiandae necessitatibus praesentium harum id
+        perspiciatis rem recusandae? Obcaecati.
+    </p>
+</body>
+
+</html>
