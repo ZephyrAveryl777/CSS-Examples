@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+.container{
+    border: 3px dashed #445566;
+    display: flex;
+    flex-flow: nowrap;
+    /* this is similar to saying : 
+        flex-direction: row | row-reversed | column | column-reversed
+        and also
+        flex-wrap: nowrap | wrap | wrap-reverse */
+
+    
+}
+flex-item {
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+.item-1 {
+    background-color: #f2ff5e;
+    padding: 25px;
+}
+.item-2 {
+    background-color: #e98543;
+    padding: 25px;
+}
+.item-3 {
+    background-color: #4cd2ec;
+    padding: 25px;
+}
+.item-4 {
+    background-color: #fcc65a;
+    padding: 25px;
+}
+.item-5 {
+    background-color: #f36861;
+    padding: 25px;
+}
+.item-6 {
+    background-color: #4ed5f0;
+    padding: 25px;
+}
+.item-7 {
+    background-color: #f08d4b;
+    padding: 25px;
+}
+.item-8 {
+    background-color: #5bb9f3;
+    padding: 25px;
+}
+.item-9 {
+    background-color: #44faa5;
+    padding: 25px;
+}
+.item-10 {
+    background-color: #2e82d1;
+    padding: 25px;
+}
